@@ -30,7 +30,7 @@ namespace APIska
 
         private void r(object sender, RoutedEventArgs e)
         {
-            string url = "https://evilinsult.com/generate_insult.php?lang=ru&type=json";
+            string url = "https://evilinsult.com/generate_insult.php?lang=us&type=json";
             string response;
 
             HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
